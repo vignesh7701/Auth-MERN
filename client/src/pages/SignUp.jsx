@@ -46,7 +46,7 @@ export default function SignUp() {
       </h1>
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col gap-4 text-xs sm:text-sm  font-main md:text-md"
+        className="flex flex-col gap-4 text-xs sm:text-sm  font-main md:text-md xl:text-xl"
       >
         <input
           type="text"
@@ -85,4 +85,4 @@ export default function SignUp() {
         </Link>
       </div>
     </div>
-  )};
+  );};
